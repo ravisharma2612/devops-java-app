@@ -14,7 +14,7 @@ spec:
     spec :
       containers :
         - name : devops-java-app
-          image : 551647579930.dkr.ecr.ap-south-1.amazonaws.com/devops-java-app:1.0
+          image : .dkr.ecr.ap-south-1.amazonaws.com/devops-java-app:1.0
           ports:
             - containerPort : 8080
           LivenessProbe:
