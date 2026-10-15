@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     AWS_REGION = "ap-south-1"
-    ECR_REPO = "551647579930.dkr.ecr.ap-south-1.amazonaws.com/devops-java-app"
+    ECR_REPO = ".dkr.ecr.ap-south-1.amazonaws.com/devops-java-app"
   }
 
   stages {
