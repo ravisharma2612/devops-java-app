@@ -1,7 +1,7 @@
 replicaCount: 2
 
 image:
-  repository: 551647579930.dkr.ecr.ap-south-1.amazonaws.com/devops-java-app
+  repository: .dkr.ecr.ap-south-1.amazonaws.com/devops-java-app
   tag: "1.0"
 
 service:
